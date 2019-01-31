@@ -1,28 +1,57 @@
 body{
-    background-image: url(../images/pattern.svg);
+    background-image: url(../images/Fundo.PNG);
     background-size: cover;
+    font-family: sans-serif;
     margin: 0;
 }
 
 #banner{
-    align-items: center;
     display: flex;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
-#banner div{
+main{
     align-items: center;
     background-color: #FF9C87;
     border-radius: 20px;
     display: flex;
-    height: 50vw;
+    flex-direction: column;
+    height: max-content;
     justify-content: center;
-    width: 70vw;
+    margin: 10vw;
 }
 
-#banner h1{
-    font-size: 1rem;
+main h1{
+    color: white;
+    font-size: 2rem;
     font-weight: 0;
+    text-align: center;
+}
+
+#games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#games a{
+    color: white;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#games img{
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-heigth: 992px) { 
+    #games{
+        justify-content: space-evenly;
+    }
+    #games a{
+        width: 40%;
+    }
 }
