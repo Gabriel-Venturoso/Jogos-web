@@ -1,0 +1,28 @@
+body{
+    background-image: url(../images/pattern.svg);
+    background-size: cover;
+    margin: 0;
+}
+
+#banner{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#banner div{
+    align-items: center;
+    background-color: #FF9C87;
+    border-radius: 20px;
+    display: flex;
+    height: 50vw;
+    justify-content: center;
+    width: 70vw;
+}
+
+#banner h1{
+    font-size: 1rem;
+    font-weight: 0;
+}
